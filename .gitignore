@@ -8,4 +8,4 @@ backend/db.sqlite3
 backend/env/
 
 newenv
-node_modules
+node_modules    
