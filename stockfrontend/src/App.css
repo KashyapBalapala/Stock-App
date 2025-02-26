@@ -1,0 +1,80 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background-color: #f4f7fc;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* App Layout */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  max-width: 85vw; /* Increase width dynamically */
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  background-color: #002b5c;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #0077b6;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #005a8d;
+}
+
+/* Cards */
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
+
+/* Inputs */
+input[type="text"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .content {
+    padding: 10px;
+  }
+}
